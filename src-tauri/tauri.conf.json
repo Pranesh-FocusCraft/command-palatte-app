@@ -46,13 +46,22 @@
 		"updater": {
 			"active": false
 		},
+		"systemTray": {
+			"iconPath": "icons/icon.png",
+			"iconAsTemplate": true
+		},
 		"windows": [
 			{
-				"fullscreen": false,
-				"height": 600,
-				"resizable": true,
 				"title": "Command Palette",
-				"width": 800
+				"fullscreen": false,
+				"resizable": false,
+				"height": 200,
+				"width": 600,
+				"center": true,
+				"focus": true,
+				"skipTaskbar": true,
+				"alwaysOnTop": true,
+				"decorations": true
 			}
 		]
 	}
